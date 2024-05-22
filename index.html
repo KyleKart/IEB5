@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Welcome to My 90s Website!</title>
+    <style type="text/css">
+        body {
+            font-family: "Comic Sans MS", sans-serif;
+            background-color: #00FF00;
+            color: #0000FF;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.example.com/background.gif');
+            background-repeat: repeat;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #FFFF00;
+            border: 2px solid #FF00FF;
+        }
+        h1 {
+            color: #FF0000;
+            text-align: center;
+        }
+        p {
+            font-size: 14px;
+        }
+        a {
+            color: #0000FF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            margin-right: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            text-align: center;
+            border-top: 2px solid #FF00FF;
+            padding-top: 10px;
+        }
+        .marquee {
+            color: #FF0000;
+            background-color: #FFFF00;
+            font-size: 18px;
+        }
+        .blink {
+            animation: blink-animation 1s steps(5, start) infinite;
+            -webkit-animation: blink-animation 1s steps(5, start) infinite;
+        }
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+        @-webkit-keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <h1>Welcome to My 90s Website!</h1>
+        <marquee class="marquee">Welcome to the coolest site on the web!</marquee>
+        <p>This is a simple website designed to look like it was made in the 90s. It uses basic HTML and CSS with vibrant colors and fun animations.</p>
+        <p><img src="https://www.example.com/spinning_animated_gif.gif" alt="Cool Spinning GIF" /></p>
+        <div class="footer">
+            &copy; 2024 My 90s IE5 Site
+        </div>
+    </div>
+</body>
+</html>
